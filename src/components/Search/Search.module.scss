@@ -1,0 +1,44 @@
+.root {
+  position: relative;
+}
+
+.input {
+  padding: 12px 20px 12px 42px;
+  width: 300px;
+
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 15px;
+  color: rgb(0, 0, 0, 0.7);
+
+  font-size: 16px;
+}
+
+.search {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+
+  font-size: 25px;
+
+  opacity: 0.3;
+}
+
+.clear {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+
+  font-size: 25px;
+
+  opacity: 0.3;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+@media only screen and (max-width : 1064px) {
+  .root {
+    margin-top: 10px;
+  }
+}

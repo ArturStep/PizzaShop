@@ -1,0 +1,9 @@
+.svgActive {
+  transition: 0.5s;
+  transform:rotate(0.5turn);
+}
+
+.svgClose {
+  transition: 0.5s;
+  transform:rotate(1turn);
+}
